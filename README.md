@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # playground-python-hacks
 Python Snowflake Hacks
-=======
+
 It is possible to upload your own files outside of python, extract them in a function and make them available.
 
 Given a downloaded Python package called `hello-world-py` which has the following structure:
@@ -45,4 +44,3 @@ When executed in a Notebook, it return:
 ```
 <Hello object at 0xffff7fc471c0>
 ```
->>>>>>> 40324d9 (Initial proof of concept for uploading packages to snowflake notebooks)
