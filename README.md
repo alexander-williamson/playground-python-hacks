@@ -3,6 +3,8 @@ Python Snowflake Hacks
 
 It is possible to upload your own files outside of python, extract them in a function and make them available.
 
+Snowflake say they use `zipimport` for their imports https://docs.snowflake.com/en/developer-guide/udf/python/udf-python-limitations
+
 Steps to reproduce:
 1) Download the Python package you want to run manually and upload it into your Snowflake Notebook file system using the web editor
 2) Extract the .tar.gz file and find the entry point
