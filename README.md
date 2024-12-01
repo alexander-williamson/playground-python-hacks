@@ -3,6 +3,11 @@ Python Snowflake Hacks
 
 It is possible to upload your own files outside of python, extract them in a function and make them available.
 
+Steps to reproduce:
+1) Download the Python package you want to run manually and upload it into your Snowflake Notebook file system using the web editor
+2) Extract the .tar.gz file and find the entry point
+3) Use Python's `exec()` functionality to call the repo. I expect that `importlib` has similar issues.
+
 Given a downloaded Python package called `hello-world-py` which has the following structure:
 
 ```
